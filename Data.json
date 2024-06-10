@@ -471,7 +471,7 @@
     },
     {
         "id": "59",
-        "image_url": "img/baoucles/boucles-d-oreilles-forme-goutte-d-eau-dorees.jpg",
+        "image_url": "img/boucles/boucles-d-oreilles-forme-goutte-d-eau-dorees.jpg",
         "title": "boucles d'oreilles forme goutte d'eau dorees",
         "last-price": "10,00£",
         "new_price": "35,00 £", 
@@ -650,7 +650,7 @@
 "combi":[
     {
         "id": "80",
-        "image_url": "img/chemise/combi-pantalon-beige-en-coton.jpg",
+        "image_url": "img/combi/combi-pantalon-beige-en-coton.jpg",
         "title": "combi pantalon beige en coton",
         "last-price": "10,00£",
         "new_price": "55,00 £", 
@@ -758,7 +758,7 @@
     },
     {
         "id": "93",
-        "image_url": "img/jupe/pantalon-blanc-coton-motifs-noirs.jpg",
+        "image_url": "img/pantalon/pantalon-blanc-coton-motifs-noirs.jpg",
         "title": "pantalon blanc coton motifs noirs",
         "last-price": "10,00£",
         "new_price": "35,00 £", 
@@ -790,7 +790,7 @@
     },
     {
         "id": "97",
-        "image_url": "img/jupe/pantalon-noir-en-coton-motifs-blancs.jpg",
+        "image_url": "img/pantalon/pantalon-noir-en-coton-motifs-blancs.jpg",
         "title": "pantalon noir en coton motifs blancs",
         "last-price": "15,00£",
         "new_price": "55,00 £", 
@@ -940,7 +940,7 @@
     },
     {
         "id": "115",
-        "image_url": "img/robe/robe-longue-leopard/.jpg",
+        "image_url": "img/robe/robe-longue-leopard.jpg",
         "title": "robe longue leopard",
         "last-price": "25,00£",
         "new_price": "55,00 £", 
@@ -1022,7 +1022,7 @@
     },
     {
         "id": "125",
-        "image_url": "img/sandales/sandales-dorees-a-talons-angel-alarcon/.jpg",
+        "image_url": "img/sandales/sandales-dorees-a-talons-angel-alarcon.jpg",
         "title": "sandales dorees à talons angel alarcon",
         "last-price": "10,00£",
         "new_price": "40,00 £", 
@@ -1038,7 +1038,7 @@
     },
     {
         "id": "127",
-        "image_url": "img/sandale/sandales-mi-mai-capri-noir-.jpg",
+        "image_url": "img/sandales/sandales-mi-mai-capri-noir-.jpg",
         "title": "",
         "last-price": "15,00£",
         "new_price": "55,00 £", 
@@ -1078,7 +1078,7 @@
     },
     {
         "id": "132",
-        "image_url": "img/sandale/sandales-semerdjian-a-brides-dorees-.jpg",
+        "image_url": "img/sandales/sandales-semerdjian-a-brides-dorees-.jpg",
         "title": "",
         "last-price": "20,00£",
         "new_price": "30,00 £", 

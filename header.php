@@ -94,7 +94,7 @@
             ><span>ACCESSOIR</span><i class="icon-arrow-down fa fa-sort-down"></i
           ></a>
           <ul class="nav_header_list">
-            <li class="navigation_list"><a href="robes.php">Centures</a></li>
+            <li class="navigation_list"><a href="centure.php">Centures</a></li>
           </ul>
         </li>
         <li class="list_hover">

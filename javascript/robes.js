@@ -1,15 +1,12 @@
-                
-let produit=document.querySelector('#specifie-8');
-console.log(produit);
-fetch("./Data.json")   
-    .then(res => res.json()) 
-    .then(data => {
-        data["robe"].forEach(element => {
-            console.log(element);
-         produit.innerHTML += `<div class="column col-sp-12 col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 specifie-7 go">
-         <div class="column col-sp-12 col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+let produit = document.querySelector("#specifie-8");
+fetch("../Data.json")
+  .then((res) => res.json())
+  .then((data) => {
+    data["robe"].forEach((element) => {
+      
+      produit.innerHTML += `<div class="column col-sp-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 specifie-7 go">
+         <div class="column col-12">
             <img class="img-fluid" src="${element.image_url}" alt="${element.title}">
-         
          </div>
          <div class="column col-sp-12 col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
            <h6 class="product-title">
@@ -24,15 +21,16 @@ fetch("./Data.json")
                  <i class="fa-solid fa-star"></i>
              </div>
          </div>
-         </div>`
-         let go=document.querySelectorAll('.go');
-         console.log(go);
-         go.forEach( go => {
-            go.addEventListener('click',()=>{
-                document.querySelector('.text').style.display="none";
-                document.querySelector('.specifie-3').style.display="none";
-                produit.innerHTML=`
-                <main class=" specifie-10">
+         </div>`; 
+    let go = document.querySelectorAll(".go");
+      console.log(go.length);
+      go.forEach((go) => {
+        go.addEventListener("click", (e) => {
+          console.log("mety");
+          document.querySelector(".text").style.display = "none";
+          document.querySelector(".specifie-3").style.display = "none";
+          produit.innerHTML = `
+                <div class=" specifie-10">
                 <div class="specifie-9">
                 <div class="img_write">
                     <img class="img-fluid col-sp-12 col-xs-12 col-sm-6 col-lg-6" src="${element.image_url}" alt="${element.title}">
@@ -71,26 +69,26 @@ fetch("./Data.json")
                             <div class="blockreassurance_product">
                               <div>
                                 <span class="item-product">
-                                  <img src="./Joya/joya_32.jpg">
+                                  <img src="img/joya_32.jpg">
                                   &nbsp;</span>
                                   <p class="block-title" style="color:#000000;">Service client au 06 49 54 94 19</p>
                               </div>
                               <div>
                                 <span class="item-product">
-                                  <img src="./Joya/joya_33.jpg">
+                                  <img src="img/joya_33.jpg">
                                             &nbsp;</span>
                                   <p class="block-title" style="color:#000000;">Paiements sécurisés &amp; 3x sans frais avec Alma</p>
                               </div>
                               <div>
                                 <span class="item-product">
-                                  <img src="./Joya/joya_1 (12).jpg">
+                                  <img src="img/rea_shipping.png">
                                             &nbsp;
                                 </span>
                                   <p class="block-title" style="color:#000000;">Livraison offerte avec Mondial Relay à partir de 100€</p>
                               </div>
                               <div>
                                 <span class="item-product">
-                                  <img src="./Joya/joya_2 (14).jpg">
+                                  <img src="img/rea_click_collect.png">
                                             &nbsp;
                                 </span>
                                   <p class="block-title" style="color:#000000;">Click &amp; Collect à La Grande Motte</p>
@@ -108,12 +106,11 @@ fetch("./Data.json")
                   <button class="dispo">Prévener-moi lorsque le est disponible</button>
                 </div>
             </div>
-            </main>`
-            
-            });
-         })
-        });  
-    })
-   
-    
-    
+            </div>`;
+        });
+      });
+    });
+  });
+
+  
+

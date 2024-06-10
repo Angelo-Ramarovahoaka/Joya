@@ -32,8 +32,9 @@
             </div>
               </div>
           </div>
-          <!-- produit -->
-        </div>
+              <div class="col-12" id="specifie-8" >
+            <!-- produit -->
+       </div>
     </main>
     <footer>
       <?php require('footer.php');?>

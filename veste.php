@@ -31,9 +31,10 @@
               <div class="leo_list"><a href="#" title="liste"><i class="icon-list fa fa-list-ul specifie-4"></i></a></div>
             </div>
               </div>
-          </div>
-          <!-- produit -->
-        </div>
+              </div>
+              <div class="col-12" id="specifie-8" >
+            <!-- produit -->
+       </div>
     </main>
     <footer>
       <?php require('footer.php');?>
