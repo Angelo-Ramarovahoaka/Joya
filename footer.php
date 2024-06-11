@@ -46,37 +46,23 @@
                 <ul class="collapse show" id="footer-link-form_8406862766373119">
                 <li>
                     <a
-                    href="https://www.joyalestore.com/11-pret-a-porter"
+                    href="./robes.php"
                     target="_self"
                     >Prêt à porter</a
                     >
                 </li>
                 <li>
                     <a
-                    href="https://www.joyalestore.com/12-chaussures"
+                    href="./baskets.php"
                     target="_self"
                     >Chaussures</a
                     >
                 </li>
                 <li>
                     <a
-                    href="https://www.joyalestore.com/13-accessoires"
+                    href="./centure.php"
                     target="_self"
                     >Accessoires</a
-                    >
-                </li>
-                <li>
-                    <a
-                    href="https://www.joyalestore.com/14-sacs-petite-maroquinerie"
-                    target="_self"
-                    >Sacs &amp; Petite maroquinerie</a
-                    >
-                </li>
-                <li>
-                    <a
-                    href="https://www.joyalestore.com/15-carte-cadeau"
-                    target="_self"
-                    >Carte cadeau</a
                     >
                 </li>
                 </ul>
@@ -97,7 +83,7 @@
                 <ul class="collapse show" id="footer-link-form_2625078723176386">
                 <li>
                     <a
-                    href="https://www.joyalestore.com/content/2-mentions-legales"
+                    href="./produit.php"
                     target="_self"
                     >Mentions légales</a
                     >

@@ -3,7 +3,8 @@ fetch("../Data.json")
   .then((res) => res.json())
   .then((data) => {
     data["tous les produits"].forEach((element) => {
-      
+      let list=document.querySelector(".leo_grid")
+   
       produit.innerHTML += `<div class="column col-sp-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 specifie-7 go">
          <div class="column col-12">
             <img class="img-fluid" src="${element.image_url}" alt="${element.title}">
@@ -22,8 +23,24 @@ fetch("../Data.json")
              </div>
          </div>
          </div>`; 
+         
     let go = document.querySelectorAll(".go");
-      console.log(go.length);
+
+    let list2=document.querySelector(".leo_grid");
+    list2.addEventListener("click",()=>{
+      produit.style.display="flex";
+      go.forEach((go) => {
+        go.classList.remove('classadd');
+      });
+     });
+     let list1=document.querySelector(".leo_list")
+     list1.addEventListener("click",()=>{
+      produit.style.display="block";
+      go.forEach((go) => {
+        go.classList.add('classadd');
+      });
+     });
+     
       go.forEach((go) => {
         go.addEventListener("click", (e) => {
           console.log("mety");
@@ -111,6 +128,4 @@ fetch("../Data.json")
       });
     });
   });
-
-  
-
+ 

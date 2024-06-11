@@ -141,19 +141,19 @@
             <!-- produit -->
        </div>
        <div class="b d-sm-flex justify-content-center nav-nav-image">
-         <a href="#" class="image">
+         <a href="./baskets.php" class="image">
           <img src="img/baskets/baskets-cl11-glitter-or-arriere-terra-cotta-.jpg" class="col-12" alt="">
           <div class="casque col-8">
           <h3>BASKETS</h3>
           </div>
         </a>
-         <a href="#" class="image">
+         <a href="./sandales.php" class="image">
           <img src="img/sandales/sandales-multi-brides-a-talons-.jpg" class="col-12" alt="">
           <div class="casque col-8">
             <h3>SANDALES</h3>
           </div>
         </a>
-         <a href="" class="image">
+         <a href="./robes.php" class="image">
           <img src="img/robe/robe-longue-rouge-.jpg" class="col-12" alt="">
           <div class="casque col-8">
             <h3>ROBE</h3>
@@ -200,7 +200,7 @@
        </div>
     </main>
     <footer>
-      <?php require('php/footer.php');?>
+      <?php require('footer.php');?>
     </footer>
    <script src="javascript/nouvelle.js"></script>
   </body>

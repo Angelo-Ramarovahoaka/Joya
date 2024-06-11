@@ -23,7 +23,20 @@ fetch("../Data.json")
          </div>
          </div>`; 
     let go = document.querySelectorAll(".go");
-      console.log(go.length);
+    let list2=document.querySelector(".leo_grid");
+    list2.addEventListener("click",()=>{
+      produit.style.display="flex";
+      go.forEach((go) => {
+        go.classList.remove('classadd');
+      });
+     });
+     let list1=document.querySelector(".leo_list")
+     list1.addEventListener("click",()=>{
+      produit.style.display="block";
+      go.forEach((go) => {
+        go.classList.add('classadd');
+      });
+     });
       go.forEach((go) => {
         go.addEventListener("click", () => {
           console.log("mety");
